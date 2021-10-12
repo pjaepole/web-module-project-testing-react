@@ -39,7 +39,7 @@ test("renders default image when image is not defined", ()=>{
     render(<Episode episode={testEpisodeWithoutImage}/>);
     const defaultImage=document.querySelector('.episode-image');
     expect(defaultImage.alt).toContain('./stranger_things.png')
-    
+    expect(defaultImage).tobe
 })
 
 //Tasks
